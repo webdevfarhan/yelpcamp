@@ -12,7 +12,7 @@ var express = require("express"),
 seedDB = require("./seeds");
 // mongoose.connect("mongodb://localhost/yelp_camp_v10", {
 //	mongodb://<dbuser>:<dbpassword>@ds245277.mlab.com:45277/yelpcamp_v11
-	mongoose.connect("mongodb://trex6187:betaparker6187@ds245277.mlab.com:45277/yelpcamp_v11", {
+	mongoose.connect("mongodb://username:password@ds245277.mlab.com:45277/yelpcamp_v11", {
 	useMongoClient: true
 });
 
